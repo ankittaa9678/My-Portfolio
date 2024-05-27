@@ -1,0 +1,81 @@
+.container{
+    width: 100%;
+    height: 800px;
+    /* border: 2px solid red; */
+    display: block;
+}
+.container h2{
+    padding: 10px;
+    
+}
+
+.row-blog{
+width: 100%;
+height: 380px;
+/* border: 2px solid red; */
+display:flex;
+justify-content: space-between;
+padding: 10px;
+
+
+}
+.row-col{
+    width: 45%;
+    height: 350px;
+    /* border: 2px solid green;
+     */
+    background-color: #18171942;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 2px solid rgb(57, 55, 55);
+
+}
+.blog-image{
+width: 100%;
+height: 70%;
+/* border: 2px solid gray; */
+
+}
+.blog-image img{
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.blog-image img:hover{
+transform: scale(1.05);
+cursor: pointer;
+}
+
+.blog-text{
+    /* margin-top: 10px; */
+    padding: 10px;
+}
+.blog-text h6{
+    color:#b3b0b0;
+    font-size: 12px;
+}
+
+.blog-text h4{
+    color: rgb(255, 252, 252);
+    margin-top: 10px;
+    margin-bottom: 5px;
+ 
+}
+
+.blog-text h4:hover{
+  color: rgb(100, 169, 209);
+  cursor: pointer;
+ 
+}
+
+.second-section {
+    width: 65%;
+    height: 1230px;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    background: radial-gradient(#040404,#060345);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
